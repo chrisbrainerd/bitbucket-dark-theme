@@ -1,0 +1,14 @@
+{
+  "bitbucket": {
+    "enabled": true,
+    "cached": true,
+    "domains": [
+      "bitbucket.visionist"
+    ],
+    "inject": {
+      "css": [
+        "bitbucket-dark.css"
+      ]
+    }
+  }
+}

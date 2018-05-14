@@ -1,0 +1,180 @@
+
+
+.aui-page-panel, body, .pull-request-row, .aui-sidebar .aui-sidebar-wrapper, .searchable-selector input, .file-toolbar,
+body #footer-logo, .markup-editor textarea, .pull-request-header .reviewer-avatar-list, 
+.add-self button, .remove-self button, .file-tree-wrapper, .pull-request-content > .commit-files .diff-tree-toolbar,
+.pull-request-content > .commit-files .diff-tree-search-wrapper .search input, table.aui>tbody>tr, .aui.search input,
+.comment-container .panel, .unified-diff .CodeMirror-scroll, .filterable-entity-table .paged-table-filter, input
+{
+  background-color: hsl(220, 13%, 18%) !important;
+  background: hsl(220, 13%, 18%) !important;
+}
+.pull-request-row:hover, .bitbucket-theme #content table.aui > tbody > tr:hover, .markup code, 
+.aui-dropdown2.aui-style-default, .searchable-selector-dialog .contents, 
+.searchable-selector .aui-tabs > ul.tabs-menu, .searchable-selector .results, .CodeMirror, 
+.text-view .line, .text-view .line .CodeMirror-gutter-elt > *, .paged-table tr.focused td,
+.diff-view.text-view .commented.line .comment-box, .jstree .jstree-hovered, 
+.aui-navgroup-vertical .aui-nav>li>a:hover
+{
+  background-color: hsl(220, 13%, 25%) !important;
+} 
+.aui-dropdown2.aui-style-default:hover a {
+  background-color: hsl(220, 13%, 25%) !important;
+}
+*::selection, *::-moz-selection {
+  background-color: black !important;
+}
+
+.searchable-selector .results, .pull-request-content > .commit-files .diff-tree-search-wrapper .search::before,
+.commits-table .message::after {
+  background-image: none !important;
+}
+.aui-buttons * {
+  color: hsl(220, 14%, 71%) !important;
+}
+.diff-view.text-view .line-number {
+  color: hsl(220, 14%, 50%) !important;
+}
+.skipped-container .content-above {
+  background-position: left 50% !important;
+}
+.skipped-container .content-below {
+  background-position: left 50%;
+}
+.skipped-container, .skipped-container .content-below, .skipped-container .content-above {
+  background-image: none;
+  background-color: hsl(200, 10%, 40%) !important;
+
+}
+.aui-button.aui-button-light {
+  background-color: unset !important;
+}
+.context.line.new, .context.line.new * {
+  animation: none !important;
+}
+.ref-lozenge {
+  background-color: hsl(220, 13%, 25%) !important;
+  color: hsl(220, 14%, 71%) !important;
+}
+input {
+  border: 1px solid hsl(220, 14%, 28%) !important
+}
+h1, h2, h3, h4, h5, h6, table.aui>tbody>tr, table.aui>tfoot>tr, body, .markup-content, input, 
+.CodeMirror, .markup-editor textarea, .aui-button, .add-self button, .remove-self button,
+.pull-request-content > .commit-files .diff-tree-search-wrapper .search input, .comment-box, 
+.pull-request-activity .activity-item .activity-item-content > .action .detail time
+{
+  color: hsl(220, 14%, 71%) !important;
+}
+.jstree .jstree-clicked {
+  background: none !important;
+  border: 1px solid hsl(220, 14%, 71%) !important;
+}
+.cm-s-stash-default .cm-property, .cm-s-stash-default .cm-variable-2 {
+  /* default text */
+  color: hsl(207, 82%, 66%) !important;
+}
+.cm-s-stash-default .cm-string { 
+  /* strings */
+  color: hsl( 29, 54%, 61%) !important; 
+}
+.cm-s-stash-default .cm-builtin {
+  color: hsl(187, 47%, 55%) !important;
+}
+.cm-s-stash-default .cm-attribute {
+  color: hsl(207, 82%, 66%) !important;
+}
+.cm-s-stash-default .cm-comment {
+  color: hsl(220, 14%, 71%) !important;
+}
+.cm-s-stash-default .cm-keyword {
+  color: hsl(  5, 20%, 51%) !important;
+}
+.cm-s-stash-default .cm-def {
+  color: hsl(207, 82%, 50%) !important;
+}
+
+.removed.line .ediff-delete, .removed.line .ediff-change {
+  background-color: hsl(  5, 48%, 51%) !important;
+  color: #fff;
+}
+.diff-view.text-view .removed.line {
+  background-color: hsl(5, 47%, 15%) !important;
+}
+.added.line .ediff-add, .added.line .ediff-change {
+  background-color: hsl(  95, 38%, 40%) !important;
+  color: #fff;
+}
+.diff-view.text-view .added.line {
+  background-color: hsl(  95, 38%, 30%) !important;
+}
+.aui-header {
+  background-color: hsl(220, 47%, 15%) !important;
+}
+h1#logo:after {
+  content: "after dark";
+  position: absolute;
+  left: 113px;
+  top: 27px;
+  font-size: 11px;
+  font-style: italic;
+}
+a {
+  color: hsl(220, 42%, 66%) !important;
+}
+* {
+  border-color: hsl(220, 13%, 25%) !important;
+}
+.aui-tabs.horizontal-tabs>.tabs-menu::after {
+  background: hsl(220, 13%, 25%) !important;
+}
+.aui-button.aui-button-subtle {
+  color: hsl(220, 14%, 51%) !important;
+  background: none !important;
+}
+.bitbucket-theme #browse-table tr.focused-file, .searchable-selector .results .result.focused a,
+.aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected>.aui-nav-item, .aui-sidebar-submenu .aui-navgroup-vertical .aui-nav .aui-nav-selected>.aui-nav-item
+{
+  background-color: hsl(220, 13%, 26%) !important;
+}
+
+.aui-icon {
+
+}
+
+.filebrowser-table .directory-file-history.message::after {
+  background-image: none !important;
+}
+
+/* Based on Sublime Text's Monokai theme */
+
+.cm-s-monokai.CodeMirror {background: #272822; color: #f8f8f2;}
+.cm-s-monokai div.CodeMirror-selected {background: #49483E !important;}
+.cm-s-monokai .CodeMirror-gutters {background: #272822; border-right: 0px;}
+.cm-s-monokai .CodeMirror-linenumber {color: #d0d0d0;}
+.cm-s-monokai .CodeMirror-cursor {border-left: 1px solid #f8f8f0 !important;}
+
+.cm-s-monokai span.cm-comment {color: #75715e;}
+.cm-s-monokai span.cm-atom {color: #ae81ff;}
+.cm-s-monokai span.cm-number {color: #ae81ff;}
+
+.cm-s-monokai span.cm-property, .cm-s-monokai span.cm-attribute {color: #a6e22e;}
+.cm-s-monokai span.cm-keyword {color: #f92672;}
+.cm-s-monokai span.cm-string {color: #e6db74;}
+
+.cm-s-monokai span.cm-variable {color: #a6e22e;}
+.cm-s-monokai span.cm-variable-2 {color: #9effff;}
+.cm-s-monokai span.cm-def {color: #fd971f;}
+.cm-s-monokai span.cm-bracket {color: #f8f8f2;}
+.cm-s-monokai span.cm-tag {color: #f92672;}
+.cm-s-monokai span.cm-link {color: #ae81ff;}
+.cm-s-monokai span.cm-error {background: #f92672; color: #f8f8f0;}
+
+.cm-s-monokai .CodeMirror-activeline-background {background: #373831 !important;}
+.cm-s-monokai .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
+ 
+            
+ 
