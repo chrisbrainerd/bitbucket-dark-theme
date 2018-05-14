@@ -24,13 +24,15 @@ body #footer-logo, .markup-editor textarea, .pull-request-header .reviewer-avata
 *::selection, *::-moz-selection {
   background-color: black !important;
 }
-
+.reviewer-status-selector .aui-button.approve {
+  color: hsl( 95, 68%, 62%)!important;
+}
+.reviewer-status-selector .aui-button.needs-work {
+  color: hsl( 39, 80%, 69%) !important;
+}
 .searchable-selector .results, .pull-request-content > .commit-files .diff-tree-search-wrapper .search::before,
 .commits-table .message::after {
   background-image: none !important;
-}
-.aui-buttons * {
-  color: hsl(220, 14%, 71%) !important;
 }
 .diff-view.text-view .line-number {
   color: hsl(220, 14%, 50%) !important;
@@ -140,9 +142,6 @@ a {
   background-color: hsl(220, 13%, 26%) !important;
 }
 
-.aui-icon {
-
-}
 
 .filebrowser-table .directory-file-history.message::after {
   background-image: none !important;
