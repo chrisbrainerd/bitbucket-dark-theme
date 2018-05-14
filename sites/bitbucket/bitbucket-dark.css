@@ -4,15 +4,15 @@
 body #footer-logo, .markup-editor textarea, .pull-request-header .reviewer-avatar-list, 
 .add-self button, .remove-self button, .file-tree-wrapper, .pull-request-content > .commit-files .diff-tree-toolbar,
 .pull-request-content > .commit-files .diff-tree-search-wrapper .search input, table.aui>tbody>tr, .aui.search input,
-.comment-container .panel, .unified-diff .CodeMirror-scroll, .filterable-entity-table .paged-table-filter, input
+.comment-container .panel, .unified-diff .CodeMirror-scroll, .filterable-entity-table .paged-table-filter, input,
+.CodeMirror, .text-view .line, .text-view .line .CodeMirror-gutter-elt > *
 {
   background-color: hsl(220, 13%, 18%) !important;
   background: hsl(220, 13%, 18%) !important;
 }
 .pull-request-row:hover, .bitbucket-theme #content table.aui > tbody > tr:hover, .markup code, 
 .aui-dropdown2.aui-style-default, .searchable-selector-dialog .contents, 
-.searchable-selector .aui-tabs > ul.tabs-menu, .searchable-selector .results, .CodeMirror, 
-.text-view .line, .text-view .line .CodeMirror-gutter-elt > *, .paged-table tr.focused td,
+.searchable-selector .aui-tabs > ul.tabs-menu, .searchable-selector .results, .paged-table tr.focused td,
 .diff-view.text-view .commented.line .comment-box, .jstree .jstree-hovered, 
 .aui-navgroup-vertical .aui-nav>li>a:hover
 {
@@ -44,7 +44,9 @@ body #footer-logo, .markup-editor textarea, .pull-request-header .reviewer-avata
 .skipped-container, .skipped-container .content-below, .skipped-container .content-above {
   background-image: none;
   background-color: hsl(200, 10%, 40%) !important;
-
+}
+.skipped-container{
+  color: transparent !important;
 }
 .aui-button.aui-button-light {
   background-color: unset !important;
@@ -95,15 +97,15 @@ h1, h2, h3, h4, h5, h6, table.aui>tbody>tr, table.aui>tfoot>tr, body, .markup-co
 }
 
 .removed.line .ediff-delete, .removed.line .ediff-change {
-  background-color: hsl(  5, 48%, 51%) !important;
-  color: #fff;
+  background-color: hsl(  5, 48%, 30%) !important;
+  color: hsl(220, 14%, 85%) !important;
 }
 .diff-view.text-view .removed.line {
   background-color: hsl(5, 47%, 15%) !important;
 }
 .added.line .ediff-add, .added.line .ediff-change {
   background-color: hsl(  95, 38%, 40%) !important;
-  color: #fff;
+  color: hsl(220, 14%, 85%) !important;
 }
 .diff-view.text-view .added.line {
   background-color: hsl(  95, 38%, 30%) !important;
